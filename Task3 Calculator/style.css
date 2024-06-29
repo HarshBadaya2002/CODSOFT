@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(to right, #60b9df, #7bfef5);
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 400px;
+    width: 450px;
+    position: absolute;
+    top: 10%;
+    left: 38%;
+    background-color: rgb(222, 164, 135);
+    }
+    
+        .keys{
+            display:grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 10px;
+            padding: 10px;
+            margin: auto;
+        }
+    
+        .button{
+            height: 60px;
+            background-color: #fff;
+            border-radius: 3px;
+            font-size: 20px;
+            border: 1px solid red;
+            background-image: linear-gradient(to bottom, transparent, transparent 50%, rgba(0,0,0,.04));
+            background-color: rgb(254, 252, 250);
+        }
+        .button:hover{
+            background-color: burlywood;
+            cursor: pointer;
+        }
+        .clear{
+            background-color: rgb(209, 21, 21);
+            color: white;
+            width: 50px;
+            height: 30px;
+            cursor: pointer;
+        }
+        .operator{
+            background-color: rgb(233, 175, 15);
+    
+        }
+        .operator1{
+            background-color: rgb(58, 149, 165);
+    
+        }
+        .screen{
+            background-color: skyblue;
+            font-size: medium;
+            margin-left: 10px;
+        }
